@@ -26,6 +26,12 @@ def ej1():
 
     numero_2 = int(input('Ingrese el segundo número:\n'))
 
+    if numero_1 > numero_2:
+        print('El {} es mayor que {}'.format(numero_1, numero_2))
+
+    else:
+        print('El {} es mayor que {}'.format(numero_2, numero_1))
+
     # Compare cual de los dos números es mayor
     # Imprima en pantalla según corresponda
 
@@ -126,7 +132,7 @@ def ej4():
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    #ej1()
+    ej1()
     #ej2()
     #ej3()
     #ej4()
